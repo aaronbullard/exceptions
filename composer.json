@@ -1,0 +1,19 @@
+{
+    "name": "aaronbullard/exceptions",
+    "description": "abstract exception handler",
+    "authors": [
+        {
+            "name": "Aaron Bullard",
+            "email": "JABullard@aol.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aaronbullard\\Exceptions": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
