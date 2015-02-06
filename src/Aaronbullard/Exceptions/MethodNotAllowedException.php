@@ -2,9 +2,9 @@
 
 use Exception;
 
-class MethodNotAllowedException extends CoreException {
-	const HTTP_CODE = 404;
-	const DESCRIPTION = "A request was made of a resource using a request method not supported by that 
-		resource; for example, using GET on a form which requires data to be presented via POST, 
-		or using PUT on a read-only resource.";
+class MethodNotAllowedException extends HttpException {
+	const HTTP_CODE = 405;
+	const DESCRIPTION = "The method specified in the Request-Line is not allowed for the resource 
+		identified by the Request-URI. The response MUST include an Allow header containing a 
+		list of valid methods for the requested resource.";
 }

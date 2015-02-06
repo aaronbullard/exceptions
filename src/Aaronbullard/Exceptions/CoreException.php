@@ -2,4 +2,4 @@
 
 use Exception;
 
-abstract class CoreException extends Exception{}
+abstract class CoreException extends Exception {}
